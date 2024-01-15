@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Users</title>
+</head>
+<body>
+<div th:switch="${users}">
+  <h2 th:case="null">Пользователи не найдены!</h2>
+  <div th:case="*">
+    <h2>Пользователи</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Id&emsp;</th>
+        <th>Имя&emsp;</th>
+        <th>Фамилия&emsp;</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="user : ${users}">
+        <td th:text="${user.id}">&emsp;</td>
+        <td th:text="${user.firstName}">&emsp;</td>
+        <td th:text="${user.lastName}">&emsp;</td>
+        <td><a th:href="@{user-update/{id}(id=${user.id})}">Изменить&emsp;</a></td>
+        <td><a th:href="@{user-delete/{id}(id=${user.id})}">Удалить&emsp;</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <p><a href="/user-create">Создать пользователя</a></p>
+</div>
+</body>
+</html>

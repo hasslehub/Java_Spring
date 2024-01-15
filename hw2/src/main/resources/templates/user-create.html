@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Create user</title>
+</head>
+<body>
+<h2>Добавление нового пользователя</h2>
+<form action="#" th:action="@{/user-create}" th:object="${user}" method="post">
+    <label for="firstName">Имя</label>
+    <input type="text" th:field="*{firstName}" id="firstName" placeholder="Введите Имя">
+    <label for="lastName">Фамилия</label>
+    <input type="text" th:field="*{lastName}" id="lastName" placeholder="Введите Фамилию">
+    <input type="submit" value="Создать пользователя">
+</form>
+</body>
+</html>
