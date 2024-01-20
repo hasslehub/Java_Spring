@@ -33,10 +33,13 @@ public class UserController {
      * @return подтверждение добавления пользователя.
      */
     @PostMapping("/body")
-    public String userAddFromBody(@RequestBody User user)
+    public String userAddFromBody(@RequestBody(required=false) User user)
     {
-        service.getDataProcessingService().getRepository().getUsers().add(user);
-        return "User added from body!";
+        if (user != null){
+            service.getDataProcessingService().getRepository().addUser(user);//.getUsers().add(user);
+            return "User added from body!";
+        }
+        return "Request is NULL!";
     }
 
     /**
