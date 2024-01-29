@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(500) NOT NULL,
+    status VARCHAR(15) NOT NULL,
+    localDateTime TIMESTAMP NOT NULL
+);
