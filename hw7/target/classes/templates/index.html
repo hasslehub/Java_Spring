@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+    <body>
+    <h1>Spring Security demo</h1>
+    <h2>
+        <span th:text="'Hello, ' + ${username} + '!'"></span></h2>
+
+    <form action="/accept" sec:authorize="isAuthenticated()" th:action="@{/logout}" method="post">
+
+        <input type="submit" value="Log out"/>
+    </form>
+
+    <form action="/accept" sec:authorize="!isAuthenticated()" th:action="@{/login}" method="get">
+
+        <input type="submit" value="Log in&nbsp"/>
+    </form>
+
+    <br><br>
+
+    <div sec:authorize="hasRole('USER')">
+        <a href="/public-data">Public data</a><br><br>
+    </div>
+    <div sec:authorize="hasRole('ADMIN')">
+        <a href="/private-data">Private data</a>
+    </div>
+</body>
+</html>
