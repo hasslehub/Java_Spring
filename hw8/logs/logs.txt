@@ -1,0 +1,476 @@
+Time: 2024-02-13T21:38:16.827295
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:38:17.280315
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:38:17.302284
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:38:17.458521
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:38:57.014682
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: error=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:38:57.158814
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:39:24.873802
+User: user
+URL: http://localhost:8080/
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:39:24.902151
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:39:24.984628
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:39:24.998475
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:50:56.531359
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:50:56.968751
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:50:57.075303
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T21:50:57.084104
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:03:19.350701
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:03:38.950189
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:03:39.312279
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:03:39.517721
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:03:39.535295
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:04:55.802182
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:05:08.870618
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:05:09.213398
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:06:47.745955
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:07:17.589387
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:07:17.889965
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:24:25.946456
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:24:26.418150
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:24:26.448763
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:24:30.134324
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-13T22:24:30.203459
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:07:23.034083
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:07:39.404989
+User: user
+URL: http://localhost:8080/
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:07:39.429871
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:07:44.001308
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:07:44.213645
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:33.582720
+User: user
+URL: http://localhost:8080/tasks/status/NOT_STARTED
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:33.637781
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:33.704600
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:33.715555
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:35.909235
+User: user
+URL: http://localhost:8080/tasks/status/IN_PROGRESS
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:35.922933
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:35.957848
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:35.965283
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:37.585282
+User: user
+URL: http://localhost:8080/tasks/status/COMPLETED
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:37.603664
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:37.699150
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:37.704214
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:41.309453
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:08:41.329694
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:11.963115
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:25.001576
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:25.240698
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:44.744443
+User: user
+URL: http://localhost:8080/tasks/1/status/IN_PROGRESS
+Method: POST
+Parameters: _csrf=[ctRiGLjDrOCmGMzMUy6Oos8x30lIRIoMnFIp6DYqSnUecWD3ReQHL9r0mdSLIa2vMAO6xqlV8nB5fL8h-DAZ2FNLchYtF1HB]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:44.823833
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:20:44.844923
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:29:13.567583
+User: user
+URL: http://localhost:8080/tasks/2/delete
+Method: POST
+Parameters: _csrf=[8CE5KQVjYRPssb4V3BqV8uWTX-qM0cBLVQGqL2jDU6qBeU0jxxFcHmdUVCfBiN92vzehloP3ctO96fVmMWOaHw2ia8myH3wV]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:29:13.613128
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:29:13.633766
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:31:43.696129
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:00.194487
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:00.400534
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:03.559372
+User: user
+URL: http://localhost:8080/tasks/1/edit
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:03.596171
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:03.859811
+User: user
+URL: http://localhost:8080/favicon.ico
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:32:03.875903
+User: user
+URL: http://localhost:8080/error
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:38:14.889615
+User: Anonymous
+URL: http://localhost:8080/login
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:38:28.040877
+User: user
+URL: http://localhost:8080/tasks
+Method: GET
+Parameters: continue=[]
+Request Body: 
+///////////////////////////
+Time: 2024-02-14T21:38:28.288274
+User: user
+URL: http://localhost:8080/css/style.css
+Method: GET
+Parameters: 
+Request Body: 
+///////////////////////////
