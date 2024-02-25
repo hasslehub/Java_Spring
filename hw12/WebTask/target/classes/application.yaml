@@ -1,0 +1,18 @@
+server:
+  port:
+    8080
+
+spring:
+  application:
+    name:
+      WebTasks
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enable: true

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<h1>Task List</h1>
+<p>
+  Filter Task by status:
+  <a th:href="@{/tasks}">All</a> |
+  <a th:href="@{/tasks/status/NOT_STARTED}">Not Started</a> |
+  <a th:href="@{/tasks/status/IN_PROGRESS}">In Progress</a> |
+  <a th:href="@{/tasks/status/COMPLETED}">Completed</a>
+</p>
+<table>
+  <thead>
+  <tr>
+    <th>Created at</th>
+    <th>Description</th>
+    <th>Status</th>
+    <th>Status Update</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="task : ${tasks}"
+      th:class="${task.status == 'COMPLETED' ? 'completed' : ''}">
+    <td th:text="${task.createdAt}"></td>
+    <td th:class="${task.status.toString() == 'COMPLETED' ? 'completed' : 'description'}"
+        th:text="${task.description}"></td>
+    <td><span th:text="${task.status}"></span></td>
+    <td>
+            <span th:if="${task.status.toString() == 'NOT_STARTED'}">
+                <form th:action="@{/tasks/{id}/status/IN_PROGRESS(id=${task.id})}" method="post">
+                    <button class="start" type="submit">Start</button>
+                </form>
+            </span>
+      <span th:if="${task.status.toString() == 'IN_PROGRESS'}">
+                <form th:action="@{/tasks/{id}/status/COMPLETED(id=${task.id})}" method="post">
+                    <button class="complete" type="submit">Complete</button>
+                </form>
+            </span>
+    </td>
+    <td>
+        <a class="edit" th:href="@{/tasks/{id}/edit(id=${task.id})}">Edit</a>
+      <form th:action="@{/tasks/{id}/delete(id=${task.id})}" method="post">
+          <button class="delete" type="submit">Delete</button>
+      </form>
+    </td>
+  </tr>
+
+  </tbody>
+</table>
+<a href="/tasks/add">Add Task</a>
+<form th:action="@{/logout}" method="post">
+  <input type="submit" value="Sign Out"/>
+</form>
+</body>
+</html>
