@@ -1,0 +1,22 @@
+server:
+  port:
+    8081
+
+spring:
+  application:
+    name:
+      restTask
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enable: true
